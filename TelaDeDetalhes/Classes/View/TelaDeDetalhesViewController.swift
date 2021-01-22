@@ -83,7 +83,7 @@ class TelaDeDetalhesViewController: UIViewController {
         
         super.viewDidLoad()
         setupViewConfiguration()
-        self.title = "BTC"
+        self.title = "\(viewModel.initials)"
     }
     
     func defaultLabelValues(text:String, fontSize:CGFloat = 18) -> UILabel {
@@ -110,7 +110,6 @@ class TelaDeDetalhesViewController: UIViewController {
         
         centralButton.setTitle(viewModel.highlightedButtonApearence(), for: .highlighted)
     }
-        
     
 }
 

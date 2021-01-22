@@ -7,12 +7,10 @@ public class Detalhes {
         self.nc = navigationController
         
     }
+    public func abreDetalhes(initials:String,currentValueOFCoin:String, isFavorite:Bool, hourSell:String, monthSell:String, yearSell:String) {
     
-    public func abreDetalhes(currentValueOFCoin:Float, isFavorite:Bool, hourSell:Float, monthSell:Float, yearSell:Float) {
-    
-        let viewModel = TelaDeDetalhesViewModel(currentValueOFCoin, isFavorite, hourSell, monthSell, yearSell)
+        let viewModel = TelaDeDetalhesViewModel(initials, currentValueOFCoin, isFavorite, hourSell, monthSell, yearSell)
         let tela = TelaDeDetalhesViewController(viewModel: viewModel)
-        
         
         if #available(iOS 10.0, *) {
             nc.navigationBar.barTintColor = UIColor(displayP3Red: 0.55, green:0.59, blue:0.37, alpha: 1)
@@ -28,5 +26,4 @@ public class Detalhes {
         nc.pushViewController(tela, animated: true)
         
     }
-    
 }

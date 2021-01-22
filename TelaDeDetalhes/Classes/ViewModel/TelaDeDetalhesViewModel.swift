@@ -9,18 +9,20 @@ import Foundation
 
 public class TelaDeDetalhesViewModel {
     
-    var currentValueOFCoin:Float
+    var initials:String
+    var currentValueOFCoin:String
     var isFavorite:Bool
-    var hourSell:Float
-    var monthSell:Float
-    var yearSell:Float
+    var hourSell:String
+    var monthSell:String
+    var yearSell:String
     
-    init(_ currentValueOFCoin:Float,_ isFavorite:Bool,_ hourSell:Float,_ monthSell:Float,_ yearSell:Float) {
+    init(_ initials:String, _ currentValueOFCoin:String,_ isFavorite:Bool,_ hourSell:String,_ monthSell:String,_ yearSell:String) {
         self.currentValueOFCoin = currentValueOFCoin
         self.isFavorite = isFavorite
         self.monthSell = monthSell
         self.hourSell = hourSell
         self.yearSell = yearSell
+        self.initials = initials
     }
     
     func buttonApearence() -> String {
