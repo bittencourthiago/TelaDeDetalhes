@@ -1,7 +1,7 @@
 PODS:
-  - SnapKit (4.2.0)
+  - SnapKit (5.0.1)
   - TelaDeDetalhes (0.1.0):
-    - SnapKit (~> 4.0)
+    - SnapKit (~> 5.0.0)
 
 DEPENDENCIES:
   - TelaDeDetalhes (from `../`)
@@ -15,9 +15,9 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
-  TelaDeDetalhes: c7168bd8d4a873a8c00545af5fc31ad3b4ae699e
+  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
+  TelaDeDetalhes: 2925fdfd1da7ebdf40707ac96f12355bbf15ebfa
 
-PODFILE CHECKSUM: a6b3834258e20e9770e02c664538f635248e723c
+PODFILE CHECKSUM: e06c1304216065974afa77db7ecdea680ef4546a
 
 COCOAPODS: 1.10.1
