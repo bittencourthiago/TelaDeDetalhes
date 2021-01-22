@@ -9,13 +9,11 @@
 import UIKit
 import TelaDeDetalhes
 
-
 class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
     }
     
-
     @IBAction func abreATela(_ sender: UIButton) {
         
         guard let nc = self.navigationController else { return }

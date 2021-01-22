@@ -9,6 +9,10 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
+How to use:
+
+
+
 ## Requirements
 
 ## Installation
@@ -17,7 +21,8 @@ TelaDeDetalhes is available through [CocoaPods](https://cocoapods.org). To insta
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'TelaDeDetalhes'
+pod 'TelaDeDetalhes', :git => 'https://github.com/bittencourthiago/TelaDeDetalhes.git'
+
 ```
 
 ## Author
