@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import SnapKit
 
 struct ValuesToStyle {
     var lineSeparator = 420

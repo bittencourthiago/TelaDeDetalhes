@@ -1,15 +1,22 @@
 PODS:
-  - TelaDeDetalhes (0.1.0)
+  - SnapKit (4.2.0)
+  - TelaDeDetalhes (0.1.0):
+    - SnapKit
 
 DEPENDENCIES:
   - TelaDeDetalhes (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - SnapKit
 
 EXTERNAL SOURCES:
   TelaDeDetalhes:
     :path: "../"
 
 SPEC CHECKSUMS:
-  TelaDeDetalhes: 45b5a5ce7b5e5469977d0728449bfca44a3dd029
+  SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
+  TelaDeDetalhes: 7268485ca947ffa3bbddcf7e400f2abcb78fae49
 
 PODFILE CHECKSUM: a6b3834258e20e9770e02c664538f635248e723c
 
