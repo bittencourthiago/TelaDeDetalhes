@@ -1,7 +1,7 @@
 PODS:
   - SnapKit (4.2.0)
   - TelaDeDetalhes (0.1.0):
-    - SnapKit
+    - SnapKit (~> 4.0)
 
 DEPENDENCIES:
   - TelaDeDetalhes (from `../`)
@@ -16,7 +16,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
-  TelaDeDetalhes: 7268485ca947ffa3bbddcf7e400f2abcb78fae49
+  TelaDeDetalhes: c7168bd8d4a873a8c00545af5fc31ad3b4ae699e
 
 PODFILE CHECKSUM: a6b3834258e20e9770e02c664538f635248e723c
 

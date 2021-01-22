@@ -21,7 +21,7 @@
   "source_files": "TelaDeDetalhes/Classes/**/*",
   "dependencies": {
     "SnapKit": [
-
+      "~> 4.0"
     ]
   }
 }
