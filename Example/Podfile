@@ -4,10 +4,10 @@ platform :ios, '9.0'
 
 target 'TelaDeDetalhes_Example' do
   pod 'TelaDeDetalhes', :path => '../'
-
+  
   target 'TelaDeDetalhes_Tests' do
     inherit! :search_paths
-
+    
     
   end
 end

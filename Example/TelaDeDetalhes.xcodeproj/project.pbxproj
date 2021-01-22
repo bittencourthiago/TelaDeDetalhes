@@ -30,7 +30,7 @@
 /* Begin PBXFileReference section */
 		258F1884227F99895E6B2765 /* Pods-TelaDeDetalhes_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TelaDeDetalhes_Example.release.xcconfig"; path = "Target Support Files/Pods-TelaDeDetalhes_Example/Pods-TelaDeDetalhes_Example.release.xcconfig"; sourceTree = "<group>"; };
 		3FADC830895A2C18774F74A9 /* Pods_TelaDeDetalhes_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TelaDeDetalhes_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5CB63A0C8E04D7D7E226E658 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		5CB63A0C8E04D7D7E226E658 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* TelaDeDetalhes_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TelaDeDetalhes_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -42,10 +42,10 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		7E06AB08256FFD168F2CB339 /* Pods-TelaDeDetalhes_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TelaDeDetalhes_Tests.release.xcconfig"; path = "Target Support Files/Pods-TelaDeDetalhes_Tests/Pods-TelaDeDetalhes_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		84502520085776AC354DF697 /* TelaDeDetalhes.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = TelaDeDetalhes.podspec; path = ../TelaDeDetalhes.podspec; sourceTree = "<group>"; };
+		84502520085776AC354DF697 /* TelaDeDetalhes.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TelaDeDetalhes.podspec; path = ../TelaDeDetalhes.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B48AE4688491265DFD5A2ADD /* Pods_TelaDeDetalhes_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TelaDeDetalhes_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C34E0A08027B3AA1F9967417 /* Pods-TelaDeDetalhes_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TelaDeDetalhes_Example.debug.xcconfig"; path = "Target Support Files/Pods-TelaDeDetalhes_Example/Pods-TelaDeDetalhes_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		E237D2E7CCE979BF85D475F5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		E237D2E7CCE979BF85D475F5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		E7FFE338ADA554F01D1FA8E1 /* Pods-TelaDeDetalhes_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TelaDeDetalhes_Tests.debug.xcconfig"; path = "Target Support Files/Pods-TelaDeDetalhes_Tests/Pods-TelaDeDetalhes_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -156,7 +156,6 @@
 				E7FFE338ADA554F01D1FA8E1 /* Pods-TelaDeDetalhes_Tests.debug.xcconfig */,
 				7E06AB08256FFD168F2CB339 /* Pods-TelaDeDetalhes_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

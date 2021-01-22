@@ -7,18 +7,20 @@
 //
 
 import UIKit
+import TelaDeDetalhes
+
 
 class ViewController: UIViewController {
-
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
     }
+    
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    @IBAction func abreATela(_ sender: UIButton) {
+        
+        guard let nc = self.navigationController else { return }
+        
+        let newViewCOntroller = Detalhes(navigationController: nc)
+        newViewCOntroller.abreDetalhes(currentValueOFCoin: 10000.50, isFavorite: false, hourSell: 200000.25, monthSell: 3000000.0, yearSell: 10000000.67)
     }
-
 }
-

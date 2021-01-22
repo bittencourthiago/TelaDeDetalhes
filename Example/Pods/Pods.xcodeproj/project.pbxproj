@@ -1,0 +1,969 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0787FD4566DBDEFF086DAC18E951C28E /* Pods-TelaDeDetalhes_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E6052ACFBD1BA95109E317217707D8A /* Pods-TelaDeDetalhes_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0AD65AE556F06607A68291F4F7CB1375 /* ConstraintDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF70248774C069165BEA1646844A494 /* ConstraintDSL.swift */; };
+		155FBA4DC063EB15D3D19F72AE645084 /* ViewConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E20FA5D3B0FD95D7BC7A0BF2462D2F9 /* ViewConfiguration.swift */; };
+		17356732EF9BA26E7A7892E5CEFB8984 /* ConstraintInsetTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 341A5BAC20D3F23B26A606EB78CB359F /* ConstraintInsetTarget.swift */; };
+		1C6D061980330E92CD6FC38A054468AE /* ConstraintInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509E88D44C568EE4D90E24EBA7DDD242 /* ConstraintInsets.swift */; };
+		1D711F95BB867704937CC3CE07853CA9 /* ConstraintAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 882C134DA975D9F62C36D4F2D55D7F11 /* ConstraintAttributes.swift */; };
+		21C13AFB1A3280B00E471255B39F95B1 /* TelaDeDetalhesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79CE119564CD1DF89DE8C6F3A1C37DF8 /* TelaDeDetalhesViewModel.swift */; };
+		26424852CF217A4FA1FF83342A5CB4DE /* ConstraintLayoutSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = D526E3F4B504F42CBD9A78599B84E19C /* ConstraintLayoutSupport.swift */; };
+		26E63F6280174789C1C08202DB48F655 /* Detalhes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F0953785897FE5C6AAB3711D8F7260 /* Detalhes.swift */; };
+		2A89AB4366368EEEBAA990136476B18D /* Constraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B942D9BA2C4A209A6D6ABEE544D86FD /* Constraint.swift */; };
+		2A9B09FDF9D7E2241B22272372EF18EF /* Pods-TelaDeDetalhes_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D8EE8B43275BCEE69111C0FB0AA5CE96 /* Pods-TelaDeDetalhes_Example-dummy.m */; };
+		2EB823F84F167D2CD0115F010BFB066B /* ConstraintLayoutGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = C75D8BE63D6D62BA8529DD78140B99DC /* ConstraintLayoutGuide.swift */; };
+		34D5C2F2954B2D6A22CAEDC8E7BDDB3D /* ConstraintLayoutGuide+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC1FB63BB21DE721B5638021AE20895 /* ConstraintLayoutGuide+Extensions.swift */; };
+		37535270FC374B61DD2CB4B823A3E7FC /* Pods-TelaDeDetalhes_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0267D23B6FB1EE606B19831203F1DC70 /* Pods-TelaDeDetalhes_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		49F153499982D1A307D3A76C1606EC02 /* Pods-TelaDeDetalhes_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 607C59AB1818EC65D31FE86C222D1903 /* Pods-TelaDeDetalhes_Tests-dummy.m */; };
+		4A48DB70D6B629F6F86EA7181219EE3B /* Debugging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D8E46DFD08E423B745A527D64A5FAB /* Debugging.swift */; };
+		4EBF2EF71AA803F0F478AC1EC863FB40 /* ConstraintDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D23F9557A8B32245F4F404AF6E590B /* ConstraintDescription.swift */; };
+		51DBD7EF3529E77CD843462F56734D45 /* ConstraintConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA347E569F975BBD40C57EBF2AE598C5 /* ConstraintConfig.swift */; };
+		5611F4E41E5C490D6196BC15D9C86DDC /* ConstraintRelation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E436A88F446CFD769DAECDE348E2EE0B /* ConstraintRelation.swift */; };
+		5F47C2B83F3FA19668073EF9D2EBC0E3 /* ConstraintLayoutGuideDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45451C4FA6C1C2DD45528E276AC1B78D /* ConstraintLayoutGuideDSL.swift */; };
+		5FA7E3EACF8D3EE5392901163E7240D7 /* ConstraintMultiplierTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78DEEE65E6AA62A0DAC3AC37362BFDDA /* ConstraintMultiplierTarget.swift */; };
+		5FF6D13229BE718538D3706AF869A649 /* Typealiases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F46F3743BCF42A22D07E37CD35ACBB5 /* Typealiases.swift */; };
+		66D771B44C06855AB36E2F25B45C245F /* LayoutConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC381EB614743E2D97E575703F8A7FE /* LayoutConstraintItem.swift */; };
+		69CC8CDEFF1F5F3FCBF5F257A5CFDC05 /* TelaDeDetalhesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C400688DA0AFBA6C93E7755DC90EA9C5 /* TelaDeDetalhesViewController.swift */; };
+		71686CFC966F4D3761019F9CA950574B /* LICENSE in Sources */ = {isa = PBXBuildFile; fileRef = A7501D3C9A455A26E0E4B76A88CEAEFE /* LICENSE */; };
+		71EB34883480FEAF74F75D9E95369D8E /* ConstraintView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68EADDD3696B30AD31621EC9C94F56D5 /* ConstraintView.swift */; };
+		7B0AC746B48C5DC0DD781940BFDD0766 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		7D075C4C8BBDB3F13D877FC477A0BFA5 /* ConstraintMakerFinalizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82E8AB12EFC1CA2D8417C99236C61D2 /* ConstraintMakerFinalizable.swift */; };
+		930CA0634929235A501F2DFE5109FE0A /* TelaDeDetalhes-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BB0668E228ACEF29351F4B8173081904 /* TelaDeDetalhes-dummy.m */; };
+		94CE1F08A5F0EC68403618E6B3F99CFF /* ConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FB8D042CD1318FD48E2222FA7E95B5 /* ConstraintItem.swift */; };
+		995E842E7A7FBB0573F533BAEABB0648 /* ConstraintPriorityTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6374BE40E85C3C7315D144E43F32B0D /* ConstraintPriorityTarget.swift */; };
+		9B9B01101C2D96AA8CE078288548A641 /* ConstraintMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9738F88232D75F4C4B5D340E26C5E017 /* ConstraintMaker.swift */; };
+		A0B8E2C3D39EFDAD5173C532B54E0BF0 /* TelaDeDetalhes-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BA6D2982B9633402CCA4CCDCC4039F24 /* TelaDeDetalhes-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A5591337634081BB9D33C7931870A1CB /* ConstraintRelatableTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F1A07CBB0F6F96C01FC0FBD70E7A1AB /* ConstraintRelatableTarget.swift */; };
+		B5BF05970C2B9EC44C4BE71C53960FC8 /* ConstraintMakerExtendable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46FED517E0AC7FC70140B18100BFBC76 /* ConstraintMakerExtendable.swift */; };
+		B8AAD981A14B7BD8E748BDC5F1A46B5F /* LayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6A37666F391DF89A79CC0F868370CB5 /* LayoutConstraint.swift */; };
+		BDA27636C902FB384C8A83990632760C /* ConstraintMakerRelatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F6B000BDFDA4DF060B17DCD02E50EB /* ConstraintMakerRelatable.swift */; };
+		C6B91D38C4BEA9A123D618F9C51A81EB /* ConstraintMakerEditable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B69A95CA908FB25DA1005ACD328C5075 /* ConstraintMakerEditable.swift */; };
+		C73D3C92F32D40DFFAED83E386718B61 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = C83BFF6949C9109A1F40B813C183CC0F /* README.md */; };
+		D120F83942C2C0BDBA2F5B6D39865894 /* ConstraintMakerPriortizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1586637067C43A864F1BF65A156D354 /* ConstraintMakerPriortizable.swift */; };
+		D5467DBAF33B74A0EE0D772EE16976EE /* UILayoutSupport+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39F24B6C66B21F9E0CA6BE49034C3B6 /* UILayoutSupport+Extensions.swift */; };
+		D95548658376B0F90999C45252818B35 /* ConstraintConstantTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29777F2B1ADF54D9E0224CD7264AA7FB /* ConstraintConstantTarget.swift */; };
+		E65F29B67E3D5DFA04AD725C9F628F84 /* ConstraintView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97FDE20F398BC585F6FEA7D95F24C02F /* ConstraintView+Extensions.swift */; };
+		EA01E8B325EF7184B39B4C0795F84383 /* ConstraintLayoutSupportDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5259E92518B43C63AD2F8FBA697E2128 /* ConstraintLayoutSupportDSL.swift */; };
+		F36406D0240654EDF205CB63E5C48800 /* ConstraintViewDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B32CA5AF96DE9D27DE0861A714BC296 /* ConstraintViewDSL.swift */; };
+		F3A6AE40ED8CF6DFC62B3E3D78B42408 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		F4A6338E124E08D45B884D835906BCFC /* ConstraintOffsetTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = E28D0E3829CA2A4D49B8DA7E133AE283 /* ConstraintOffsetTarget.swift */; };
+		FBE52C92A889CC99477E559EF3DF3C28 /* ConstraintPriority.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC816A80D53CE8AF76169C6ED53CA84 /* ConstraintPriority.swift */; };
+		FFB50169A8173D3FE4A9762C4398403B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5B52ED412AB52745EB3CB37FEA5B051C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04018143F4C26C071B3E1F757E75E3F1;
+			remoteInfo = "Pods-TelaDeDetalhes_Example";
+		};
+		7813E0EDF8796D26AD1AB6D8CA47640E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7337F2D8066B104D8592B697280418E0;
+			remoteInfo = TelaDeDetalhes;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0267D23B6FB1EE606B19831203F1DC70 /* Pods-TelaDeDetalhes_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TelaDeDetalhes_Tests-umbrella.h"; sourceTree = "<group>"; };
+		04FB8D042CD1318FD48E2222FA7E95B5 /* ConstraintItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ConstraintItem.swift; sourceTree = "<group>"; };
+		0B942D9BA2C4A209A6D6ABEE544D86FD /* Constraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Constraint.swift; sourceTree = "<group>"; };
+		0E538A38F553907F9B6534FE068B2EAA /* TelaDeDetalhes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TelaDeDetalhes.debug.xcconfig; sourceTree = "<group>"; };
+		0FAA91569A961DA4E5CF641B53BFDCE0 /* Pods-TelaDeDetalhes_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TelaDeDetalhes_Example-frameworks.sh"; sourceTree = "<group>"; };
+		18E1CBBDCA798D1B19166341F7E44052 /* Pods-TelaDeDetalhes_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TelaDeDetalhes_Example.release.xcconfig"; sourceTree = "<group>"; };
+		29777F2B1ADF54D9E0224CD7264AA7FB /* ConstraintConstantTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ConstraintConstantTarget.swift; sourceTree = "<group>"; };
+		2AC816A80D53CE8AF76169C6ED53CA84 /* ConstraintPriority.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ConstraintPriority.swift; sourceTree = "<group>"; };
+		31D8E46DFD08E423B745A527D64A5FAB /* Debugging.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Debugging.swift; sourceTree = "<group>"; };
+		341A5BAC20D3F23B26A606EB78CB359F /* ConstraintInsetTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ConstraintInsetTarget.swift; sourceTree = "<group>"; };
+		3C0299EBACECB6DEEA275BD17443DEEF /* Pods-TelaDeDetalhes_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TelaDeDetalhes_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		3F099F178A3C4861A28C1B17322AB892 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		4414649FDCB75BA8789A63A5528F5302 /* TelaDeDetalhes.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TelaDeDetalhes.modulemap; sourceTree = "<group>"; };
+		45451C4FA6C1C2DD45528E276AC1B78D /* ConstraintLayoutGuideDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ConstraintLayoutGuideDSL.swift; sourceTree = "<group>"; };
+		46FED517E0AC7FC70140B18100BFBC76 /* ConstraintMakerExtendable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ConstraintMakerExtendable.swift; sourceTree = "<group>"; };
+		47D23F9557A8B32245F4F404AF6E590B /* ConstraintDescription.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ConstraintDescription.swift; sourceTree = "<group>"; };
+		4A8AB9C694130D2525BED18C5ECAF9F1 /* TelaDeDetalhes-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TelaDeDetalhes-prefix.pch"; sourceTree = "<group>"; };
+		4C2568BE2C9C46E17571C69F3F0C3F7A /* Pods-TelaDeDetalhes_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TelaDeDetalhes_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		509E88D44C568EE4D90E24EBA7DDD242 /* ConstraintInsets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ConstraintInsets.swift; sourceTree = "<group>"; };
+		50E02AA9E5D2AB7D856AE1396B672BD4 /* TelaDeDetalhes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TelaDeDetalhes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5259E92518B43C63AD2F8FBA697E2128 /* ConstraintLayoutSupportDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ConstraintLayoutSupportDSL.swift; sourceTree = "<group>"; };
+		5B32CA5AF96DE9D27DE0861A714BC296 /* ConstraintViewDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ConstraintViewDSL.swift; sourceTree = "<group>"; };
+		5F46F3743BCF42A22D07E37CD35ACBB5 /* Typealiases.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Typealiases.swift; sourceTree = "<group>"; };
+		607C59AB1818EC65D31FE86C222D1903 /* Pods-TelaDeDetalhes_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TelaDeDetalhes_Tests-dummy.m"; sourceTree = "<group>"; };
+		68EADDD3696B30AD31621EC9C94F56D5 /* ConstraintView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ConstraintView.swift; sourceTree = "<group>"; };
+		6B5F8D533C797B2745C4DF80FA1ADD7F /* TelaDeDetalhes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TelaDeDetalhes.release.xcconfig; sourceTree = "<group>"; };
+		6DEA2849BA4B289AEC68E9580FE6E40F /* Pods-TelaDeDetalhes_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TelaDeDetalhes_Tests-Info.plist"; sourceTree = "<group>"; };
+		6E20FA5D3B0FD95D7BC7A0BF2462D2F9 /* ViewConfiguration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ViewConfiguration.swift; sourceTree = "<group>"; };
+		6F1A07CBB0F6F96C01FC0FBD70E7A1AB /* ConstraintRelatableTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ConstraintRelatableTarget.swift; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		78DEEE65E6AA62A0DAC3AC37362BFDDA /* ConstraintMultiplierTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ConstraintMultiplierTarget.swift; sourceTree = "<group>"; };
+		791B36A14C0E1B12FB4D2B63284374DE /* Pods-TelaDeDetalhes_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TelaDeDetalhes_Example-Info.plist"; sourceTree = "<group>"; };
+		79CE119564CD1DF89DE8C6F3A1C37DF8 /* TelaDeDetalhesViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TelaDeDetalhesViewModel.swift; sourceTree = "<group>"; };
+		882C134DA975D9F62C36D4F2D55D7F11 /* ConstraintAttributes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ConstraintAttributes.swift; sourceTree = "<group>"; };
+		8E6052ACFBD1BA95109E317217707D8A /* Pods-TelaDeDetalhes_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TelaDeDetalhes_Example-umbrella.h"; sourceTree = "<group>"; };
+		95F0953785897FE5C6AAB3711D8F7260 /* Detalhes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Detalhes.swift; path = TelaDeDetalhes/Classes/Detalhes.swift; sourceTree = "<group>"; };
+		9738F88232D75F4C4B5D340E26C5E017 /* ConstraintMaker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ConstraintMaker.swift; sourceTree = "<group>"; };
+		97FDE20F398BC585F6FEA7D95F24C02F /* ConstraintView+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "ConstraintView+Extensions.swift"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A0B83097667A8AC6DBD4C958C14C9712 /* Pods_TelaDeDetalhes_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TelaDeDetalhes_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1586637067C43A864F1BF65A156D354 /* ConstraintMakerPriortizable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ConstraintMakerPriortizable.swift; sourceTree = "<group>"; };
+		A18D6F133D9B2A2BC5257EE712F32E11 /* Pods-TelaDeDetalhes_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TelaDeDetalhes_Tests.modulemap"; sourceTree = "<group>"; };
+		A7501D3C9A455A26E0E4B76A88CEAEFE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		A82E8AB12EFC1CA2D8417C99236C61D2 /* ConstraintMakerFinalizable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ConstraintMakerFinalizable.swift; sourceTree = "<group>"; };
+		B39F24B6C66B21F9E0CA6BE49034C3B6 /* UILayoutSupport+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UILayoutSupport+Extensions.swift"; sourceTree = "<group>"; };
+		B6374BE40E85C3C7315D144E43F32B0D /* ConstraintPriorityTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ConstraintPriorityTarget.swift; sourceTree = "<group>"; };
+		B69A95CA908FB25DA1005ACD328C5075 /* ConstraintMakerEditable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ConstraintMakerEditable.swift; sourceTree = "<group>"; };
+		B8F6B000BDFDA4DF060B17DCD02E50EB /* ConstraintMakerRelatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ConstraintMakerRelatable.swift; sourceTree = "<group>"; };
+		BA6D2982B9633402CCA4CCDCC4039F24 /* TelaDeDetalhes-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TelaDeDetalhes-umbrella.h"; sourceTree = "<group>"; };
+		BB0668E228ACEF29351F4B8173081904 /* TelaDeDetalhes-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TelaDeDetalhes-dummy.m"; sourceTree = "<group>"; };
+		C10BD5D107D91776483653F8F1DA6305 /* Pods-TelaDeDetalhes_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TelaDeDetalhes_Example.modulemap"; sourceTree = "<group>"; };
+		C400688DA0AFBA6C93E7755DC90EA9C5 /* TelaDeDetalhesViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TelaDeDetalhesViewController.swift; sourceTree = "<group>"; };
+		C75D8BE63D6D62BA8529DD78140B99DC /* ConstraintLayoutGuide.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ConstraintLayoutGuide.swift; sourceTree = "<group>"; };
+		C83BFF6949C9109A1F40B813C183CC0F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		CC5D07994B5EB28DB9EE33F08C97D9B5 /* Pods-TelaDeDetalhes_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TelaDeDetalhes_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		D31C42C57C9F6ABAB4AE547943D1F005 /* Pods-TelaDeDetalhes_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TelaDeDetalhes_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		D3E845E82481117C0DD615695CC49C5D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		D4758D7CB13DEEBE60D7A9AEF7D7B5BB /* Pods-TelaDeDetalhes_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TelaDeDetalhes_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D526E3F4B504F42CBD9A78599B84E19C /* ConstraintLayoutSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ConstraintLayoutSupport.swift; sourceTree = "<group>"; };
+		D700AA007F5A1EB5B4151A6BF279DAC3 /* TelaDeDetalhes-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TelaDeDetalhes-Info.plist"; sourceTree = "<group>"; };
+		D8EE8B43275BCEE69111C0FB0AA5CE96 /* Pods-TelaDeDetalhes_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TelaDeDetalhes_Example-dummy.m"; sourceTree = "<group>"; };
+		DCC381EB614743E2D97E575703F8A7FE /* LayoutConstraintItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LayoutConstraintItem.swift; sourceTree = "<group>"; };
+		DDC1FB63BB21DE721B5638021AE20895 /* ConstraintLayoutGuide+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "ConstraintLayoutGuide+Extensions.swift"; sourceTree = "<group>"; };
+		E28D0E3829CA2A4D49B8DA7E133AE283 /* ConstraintOffsetTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ConstraintOffsetTarget.swift; sourceTree = "<group>"; };
+		E436A88F446CFD769DAECDE348E2EE0B /* ConstraintRelation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ConstraintRelation.swift; sourceTree = "<group>"; };
+		E6A37666F391DF89A79CC0F868370CB5 /* LayoutConstraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LayoutConstraint.swift; sourceTree = "<group>"; };
+		EE4A2281EFF896D740204294A04E7102 /* Pods-TelaDeDetalhes_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TelaDeDetalhes_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		F21A567AC2ADF2AA935E172C6E0B27C1 /* TelaDeDetalhes.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = TelaDeDetalhes.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F80F4CFC1FF5BFCECDC417AB138B5719 /* Pods_TelaDeDetalhes_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TelaDeDetalhes_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA347E569F975BBD40C57EBF2AE598C5 /* ConstraintConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ConstraintConfig.swift; sourceTree = "<group>"; };
+		FAF70248774C069165BEA1646844A494 /* ConstraintDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ConstraintDSL.swift; sourceTree = "<group>"; };
+		FC58F764D1F3FDABCCF526929ECDFC93 /* Pods-TelaDeDetalhes_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TelaDeDetalhes_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C82347A7DD765040C1D1E689A9FA160 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFB50169A8173D3FE4A9762C4398403B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		574321F9E58770CA56C0A606D8EE073B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3A6AE40ED8CF6DFC62B3E3D78B42408 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D94CB342E16A15A975AB441AB5D8F6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B0AC746B48C5DC0DD781940BFDD0766 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A7158D4E3B04A22340C31A9673D2C26 /* SnapKit */ = {
+			isa = PBXGroup;
+			children = (
+				A7501D3C9A455A26E0E4B76A88CEAEFE /* LICENSE */,
+				C83BFF6949C9109A1F40B813C183CC0F /* README.md */,
+				FE6490A73159852D1DE2862362410DD3 /* Source */,
+			);
+			name = SnapKit;
+			path = TelaDeDetalhes/Classes/SnapKit;
+			sourceTree = "<group>";
+		};
+		0AF263224CBD51D9FCB85795C5064AA0 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				6E20FA5D3B0FD95D7BC7A0BF2462D2F9 /* ViewConfiguration.swift */,
+			);
+			name = Helper;
+			path = TelaDeDetalhes/Classes/Helper;
+			sourceTree = "<group>";
+		};
+		49435A0489E557E5E67BF44000CB3F0A /* TelaDeDetalhes */ = {
+			isa = PBXGroup;
+			children = (
+				95F0953785897FE5C6AAB3711D8F7260 /* Detalhes.swift */,
+				0AF263224CBD51D9FCB85795C5064AA0 /* Helper */,
+				E022EE332572F526756A8A6CC2E94109 /* Pod */,
+				0A7158D4E3B04A22340C31A9673D2C26 /* SnapKit */,
+				C9D4DEFF3137614E6168C15878DDD6AF /* Support Files */,
+				E4C759E0273453A48EEEF3618E36898E /* View */,
+				49A6E4597F970859E808620731737AD6 /* ViewModel */,
+			);
+			name = TelaDeDetalhes;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		49A6E4597F970859E808620731737AD6 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				79CE119564CD1DF89DE8C6F3A1C37DF8 /* TelaDeDetalhesViewModel.swift */,
+			);
+			name = ViewModel;
+			path = TelaDeDetalhes/Classes/ViewModel;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6D1C3EF356E737014A462D6DFB7BCF7C /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				803BB3347AC3B0044C2575328E8BFFFA /* Pods-TelaDeDetalhes_Example */,
+				A80FCBAA9CBCFCA31673027866842EDA /* Pods-TelaDeDetalhes_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		803BB3347AC3B0044C2575328E8BFFFA /* Pods-TelaDeDetalhes_Example */ = {
+			isa = PBXGroup;
+			children = (
+				C10BD5D107D91776483653F8F1DA6305 /* Pods-TelaDeDetalhes_Example.modulemap */,
+				D4758D7CB13DEEBE60D7A9AEF7D7B5BB /* Pods-TelaDeDetalhes_Example-acknowledgements.markdown */,
+				EE4A2281EFF896D740204294A04E7102 /* Pods-TelaDeDetalhes_Example-acknowledgements.plist */,
+				D8EE8B43275BCEE69111C0FB0AA5CE96 /* Pods-TelaDeDetalhes_Example-dummy.m */,
+				0FAA91569A961DA4E5CF641B53BFDCE0 /* Pods-TelaDeDetalhes_Example-frameworks.sh */,
+				791B36A14C0E1B12FB4D2B63284374DE /* Pods-TelaDeDetalhes_Example-Info.plist */,
+				8E6052ACFBD1BA95109E317217707D8A /* Pods-TelaDeDetalhes_Example-umbrella.h */,
+				4C2568BE2C9C46E17571C69F3F0C3F7A /* Pods-TelaDeDetalhes_Example.debug.xcconfig */,
+				18E1CBBDCA798D1B19166341F7E44052 /* Pods-TelaDeDetalhes_Example.release.xcconfig */,
+			);
+			name = "Pods-TelaDeDetalhes_Example";
+			path = "Target Support Files/Pods-TelaDeDetalhes_Example";
+			sourceTree = "<group>";
+		};
+		8892BB1493B957553D2F741E12147810 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				49435A0489E557E5E67BF44000CB3F0A /* TelaDeDetalhes */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		A80FCBAA9CBCFCA31673027866842EDA /* Pods-TelaDeDetalhes_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A18D6F133D9B2A2BC5257EE712F32E11 /* Pods-TelaDeDetalhes_Tests.modulemap */,
+				FC58F764D1F3FDABCCF526929ECDFC93 /* Pods-TelaDeDetalhes_Tests-acknowledgements.markdown */,
+				3C0299EBACECB6DEEA275BD17443DEEF /* Pods-TelaDeDetalhes_Tests-acknowledgements.plist */,
+				607C59AB1818EC65D31FE86C222D1903 /* Pods-TelaDeDetalhes_Tests-dummy.m */,
+				6DEA2849BA4B289AEC68E9580FE6E40F /* Pods-TelaDeDetalhes_Tests-Info.plist */,
+				0267D23B6FB1EE606B19831203F1DC70 /* Pods-TelaDeDetalhes_Tests-umbrella.h */,
+				CC5D07994B5EB28DB9EE33F08C97D9B5 /* Pods-TelaDeDetalhes_Tests.debug.xcconfig */,
+				D31C42C57C9F6ABAB4AE547943D1F005 /* Pods-TelaDeDetalhes_Tests.release.xcconfig */,
+			);
+			name = "Pods-TelaDeDetalhes_Tests";
+			path = "Target Support Files/Pods-TelaDeDetalhes_Tests";
+			sourceTree = "<group>";
+		};
+		C0516F3CA5F6A6A33E4A4A9152BC5086 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A0B83097667A8AC6DBD4C958C14C9712 /* Pods_TelaDeDetalhes_Example.framework */,
+				F80F4CFC1FF5BFCECDC417AB138B5719 /* Pods_TelaDeDetalhes_Tests.framework */,
+				50E02AA9E5D2AB7D856AE1396B672BD4 /* TelaDeDetalhes.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C9D4DEFF3137614E6168C15878DDD6AF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4414649FDCB75BA8789A63A5528F5302 /* TelaDeDetalhes.modulemap */,
+				BB0668E228ACEF29351F4B8173081904 /* TelaDeDetalhes-dummy.m */,
+				D700AA007F5A1EB5B4151A6BF279DAC3 /* TelaDeDetalhes-Info.plist */,
+				4A8AB9C694130D2525BED18C5ECAF9F1 /* TelaDeDetalhes-prefix.pch */,
+				BA6D2982B9633402CCA4CCDCC4039F24 /* TelaDeDetalhes-umbrella.h */,
+				0E538A38F553907F9B6534FE068B2EAA /* TelaDeDetalhes.debug.xcconfig */,
+				6B5F8D533C797B2745C4DF80FA1ADD7F /* TelaDeDetalhes.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/TelaDeDetalhes";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				8892BB1493B957553D2F741E12147810 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				C0516F3CA5F6A6A33E4A4A9152BC5086 /* Products */,
+				6D1C3EF356E737014A462D6DFB7BCF7C /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E022EE332572F526756A8A6CC2E94109 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				3F099F178A3C4861A28C1B17322AB892 /* LICENSE */,
+				D3E845E82481117C0DD615695CC49C5D /* README.md */,
+				F21A567AC2ADF2AA935E172C6E0B27C1 /* TelaDeDetalhes.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		E4C759E0273453A48EEEF3618E36898E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C400688DA0AFBA6C93E7755DC90EA9C5 /* TelaDeDetalhesViewController.swift */,
+			);
+			name = View;
+			path = TelaDeDetalhes/Classes/View;
+			sourceTree = "<group>";
+		};
+		FE6490A73159852D1DE2862362410DD3 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				0B942D9BA2C4A209A6D6ABEE544D86FD /* Constraint.swift */,
+				882C134DA975D9F62C36D4F2D55D7F11 /* ConstraintAttributes.swift */,
+				FA347E569F975BBD40C57EBF2AE598C5 /* ConstraintConfig.swift */,
+				29777F2B1ADF54D9E0224CD7264AA7FB /* ConstraintConstantTarget.swift */,
+				47D23F9557A8B32245F4F404AF6E590B /* ConstraintDescription.swift */,
+				FAF70248774C069165BEA1646844A494 /* ConstraintDSL.swift */,
+				509E88D44C568EE4D90E24EBA7DDD242 /* ConstraintInsets.swift */,
+				341A5BAC20D3F23B26A606EB78CB359F /* ConstraintInsetTarget.swift */,
+				04FB8D042CD1318FD48E2222FA7E95B5 /* ConstraintItem.swift */,
+				C75D8BE63D6D62BA8529DD78140B99DC /* ConstraintLayoutGuide.swift */,
+				DDC1FB63BB21DE721B5638021AE20895 /* ConstraintLayoutGuide+Extensions.swift */,
+				45451C4FA6C1C2DD45528E276AC1B78D /* ConstraintLayoutGuideDSL.swift */,
+				D526E3F4B504F42CBD9A78599B84E19C /* ConstraintLayoutSupport.swift */,
+				5259E92518B43C63AD2F8FBA697E2128 /* ConstraintLayoutSupportDSL.swift */,
+				9738F88232D75F4C4B5D340E26C5E017 /* ConstraintMaker.swift */,
+				B69A95CA908FB25DA1005ACD328C5075 /* ConstraintMakerEditable.swift */,
+				46FED517E0AC7FC70140B18100BFBC76 /* ConstraintMakerExtendable.swift */,
+				A82E8AB12EFC1CA2D8417C99236C61D2 /* ConstraintMakerFinalizable.swift */,
+				A1586637067C43A864F1BF65A156D354 /* ConstraintMakerPriortizable.swift */,
+				B8F6B000BDFDA4DF060B17DCD02E50EB /* ConstraintMakerRelatable.swift */,
+				78DEEE65E6AA62A0DAC3AC37362BFDDA /* ConstraintMultiplierTarget.swift */,
+				E28D0E3829CA2A4D49B8DA7E133AE283 /* ConstraintOffsetTarget.swift */,
+				2AC816A80D53CE8AF76169C6ED53CA84 /* ConstraintPriority.swift */,
+				B6374BE40E85C3C7315D144E43F32B0D /* ConstraintPriorityTarget.swift */,
+				6F1A07CBB0F6F96C01FC0FBD70E7A1AB /* ConstraintRelatableTarget.swift */,
+				E436A88F446CFD769DAECDE348E2EE0B /* ConstraintRelation.swift */,
+				68EADDD3696B30AD31621EC9C94F56D5 /* ConstraintView.swift */,
+				97FDE20F398BC585F6FEA7D95F24C02F /* ConstraintView+Extensions.swift */,
+				5B32CA5AF96DE9D27DE0861A714BC296 /* ConstraintViewDSL.swift */,
+				31D8E46DFD08E423B745A527D64A5FAB /* Debugging.swift */,
+				E6A37666F391DF89A79CC0F868370CB5 /* LayoutConstraint.swift */,
+				DCC381EB614743E2D97E575703F8A7FE /* LayoutConstraintItem.swift */,
+				5F46F3743BCF42A22D07E37CD35ACBB5 /* Typealiases.swift */,
+				B39F24B6C66B21F9E0CA6BE49034C3B6 /* UILayoutSupport+Extensions.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		13F20272617D16CDA9BF779A062EEA55 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0B8E2C3D39EFDAD5173C532B54E0BF0 /* TelaDeDetalhes-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		512C4AC1D14BA096644CC09E0E0F1479 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0787FD4566DBDEFF086DAC18E951C28E /* Pods-TelaDeDetalhes_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC06AB102A08B14845143FFAFF98CB7C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37535270FC374B61DD2CB4B823A3E7FC /* Pods-TelaDeDetalhes_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		04018143F4C26C071B3E1F757E75E3F1 /* Pods-TelaDeDetalhes_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5A92C057EA54AADCD992A5810840F38 /* Build configuration list for PBXNativeTarget "Pods-TelaDeDetalhes_Example" */;
+			buildPhases = (
+				512C4AC1D14BA096644CC09E0E0F1479 /* Headers */,
+				D9A28C733A654D8E43320AC59D42FAEE /* Sources */,
+				4C82347A7DD765040C1D1E689A9FA160 /* Frameworks */,
+				BD2F6D6A3BA52788A6162BF6069E15E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F5BFB71BC67C670BE9FD2584F4C32F9 /* PBXTargetDependency */,
+			);
+			name = "Pods-TelaDeDetalhes_Example";
+			productName = "Pods-TelaDeDetalhes_Example";
+			productReference = A0B83097667A8AC6DBD4C958C14C9712 /* Pods_TelaDeDetalhes_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4707002C3E87DEF35DD4D266FA244E53 /* Pods-TelaDeDetalhes_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FB937F9E7C456F61DD7389F87BBA884 /* Build configuration list for PBXNativeTarget "Pods-TelaDeDetalhes_Tests" */;
+			buildPhases = (
+				AC06AB102A08B14845143FFAFF98CB7C /* Headers */,
+				D11A795839EF0AD2669E7E742885813D /* Sources */,
+				6D94CB342E16A15A975AB441AB5D8F6C /* Frameworks */,
+				23004A662D1E8D934E51432E10F48B18 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A8B687BF304608E42341C027C7C7D666 /* PBXTargetDependency */,
+			);
+			name = "Pods-TelaDeDetalhes_Tests";
+			productName = "Pods-TelaDeDetalhes_Tests";
+			productReference = F80F4CFC1FF5BFCECDC417AB138B5719 /* Pods_TelaDeDetalhes_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7337F2D8066B104D8592B697280418E0 /* TelaDeDetalhes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E8130FDF99B358D6DDC6D44B02D7E26 /* Build configuration list for PBXNativeTarget "TelaDeDetalhes" */;
+			buildPhases = (
+				13F20272617D16CDA9BF779A062EEA55 /* Headers */,
+				71113FE2E85CD104BCEE3EE0F981D5D9 /* Sources */,
+				574321F9E58770CA56C0A606D8EE073B /* Frameworks */,
+				963EA95A47EE41887445971472DC09B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TelaDeDetalhes;
+			productName = TelaDeDetalhes;
+			productReference = 50E02AA9E5D2AB7D856AE1396B672BD4 /* TelaDeDetalhes.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = C0516F3CA5F6A6A33E4A4A9152BC5086 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04018143F4C26C071B3E1F757E75E3F1 /* Pods-TelaDeDetalhes_Example */,
+				4707002C3E87DEF35DD4D266FA244E53 /* Pods-TelaDeDetalhes_Tests */,
+				7337F2D8066B104D8592B697280418E0 /* TelaDeDetalhes */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		23004A662D1E8D934E51432E10F48B18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		963EA95A47EE41887445971472DC09B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD2F6D6A3BA52788A6162BF6069E15E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		71113FE2E85CD104BCEE3EE0F981D5D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A89AB4366368EEEBAA990136476B18D /* Constraint.swift in Sources */,
+				1D711F95BB867704937CC3CE07853CA9 /* ConstraintAttributes.swift in Sources */,
+				51DBD7EF3529E77CD843462F56734D45 /* ConstraintConfig.swift in Sources */,
+				D95548658376B0F90999C45252818B35 /* ConstraintConstantTarget.swift in Sources */,
+				4EBF2EF71AA803F0F478AC1EC863FB40 /* ConstraintDescription.swift in Sources */,
+				0AD65AE556F06607A68291F4F7CB1375 /* ConstraintDSL.swift in Sources */,
+				1C6D061980330E92CD6FC38A054468AE /* ConstraintInsets.swift in Sources */,
+				17356732EF9BA26E7A7892E5CEFB8984 /* ConstraintInsetTarget.swift in Sources */,
+				94CE1F08A5F0EC68403618E6B3F99CFF /* ConstraintItem.swift in Sources */,
+				34D5C2F2954B2D6A22CAEDC8E7BDDB3D /* ConstraintLayoutGuide+Extensions.swift in Sources */,
+				2EB823F84F167D2CD0115F010BFB066B /* ConstraintLayoutGuide.swift in Sources */,
+				5F47C2B83F3FA19668073EF9D2EBC0E3 /* ConstraintLayoutGuideDSL.swift in Sources */,
+				26424852CF217A4FA1FF83342A5CB4DE /* ConstraintLayoutSupport.swift in Sources */,
+				EA01E8B325EF7184B39B4C0795F84383 /* ConstraintLayoutSupportDSL.swift in Sources */,
+				9B9B01101C2D96AA8CE078288548A641 /* ConstraintMaker.swift in Sources */,
+				C6B91D38C4BEA9A123D618F9C51A81EB /* ConstraintMakerEditable.swift in Sources */,
+				B5BF05970C2B9EC44C4BE71C53960FC8 /* ConstraintMakerExtendable.swift in Sources */,
+				7D075C4C8BBDB3F13D877FC477A0BFA5 /* ConstraintMakerFinalizable.swift in Sources */,
+				D120F83942C2C0BDBA2F5B6D39865894 /* ConstraintMakerPriortizable.swift in Sources */,
+				BDA27636C902FB384C8A83990632760C /* ConstraintMakerRelatable.swift in Sources */,
+				5FA7E3EACF8D3EE5392901163E7240D7 /* ConstraintMultiplierTarget.swift in Sources */,
+				F4A6338E124E08D45B884D835906BCFC /* ConstraintOffsetTarget.swift in Sources */,
+				FBE52C92A889CC99477E559EF3DF3C28 /* ConstraintPriority.swift in Sources */,
+				995E842E7A7FBB0573F533BAEABB0648 /* ConstraintPriorityTarget.swift in Sources */,
+				A5591337634081BB9D33C7931870A1CB /* ConstraintRelatableTarget.swift in Sources */,
+				5611F4E41E5C490D6196BC15D9C86DDC /* ConstraintRelation.swift in Sources */,
+				E65F29B67E3D5DFA04AD725C9F628F84 /* ConstraintView+Extensions.swift in Sources */,
+				71EB34883480FEAF74F75D9E95369D8E /* ConstraintView.swift in Sources */,
+				F36406D0240654EDF205CB63E5C48800 /* ConstraintViewDSL.swift in Sources */,
+				4A48DB70D6B629F6F86EA7181219EE3B /* Debugging.swift in Sources */,
+				26E63F6280174789C1C08202DB48F655 /* Detalhes.swift in Sources */,
+				B8AAD981A14B7BD8E748BDC5F1A46B5F /* LayoutConstraint.swift in Sources */,
+				66D771B44C06855AB36E2F25B45C245F /* LayoutConstraintItem.swift in Sources */,
+				71686CFC966F4D3761019F9CA950574B /* LICENSE in Sources */,
+				C73D3C92F32D40DFFAED83E386718B61 /* README.md in Sources */,
+				930CA0634929235A501F2DFE5109FE0A /* TelaDeDetalhes-dummy.m in Sources */,
+				69CC8CDEFF1F5F3FCBF5F257A5CFDC05 /* TelaDeDetalhesViewController.swift in Sources */,
+				21C13AFB1A3280B00E471255B39F95B1 /* TelaDeDetalhesViewModel.swift in Sources */,
+				5FF6D13229BE718538D3706AF869A649 /* Typealiases.swift in Sources */,
+				D5467DBAF33B74A0EE0D772EE16976EE /* UILayoutSupport+Extensions.swift in Sources */,
+				155FBA4DC063EB15D3D19F72AE645084 /* ViewConfiguration.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D11A795839EF0AD2669E7E742885813D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49F153499982D1A307D3A76C1606EC02 /* Pods-TelaDeDetalhes_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9A28C733A654D8E43320AC59D42FAEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A9B09FDF9D7E2241B22272372EF18EF /* Pods-TelaDeDetalhes_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F5BFB71BC67C670BE9FD2584F4C32F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TelaDeDetalhes;
+			target = 7337F2D8066B104D8592B697280418E0 /* TelaDeDetalhes */;
+			targetProxy = 7813E0EDF8796D26AD1AB6D8CA47640E /* PBXContainerItemProxy */;
+		};
+		A8B687BF304608E42341C027C7C7D666 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-TelaDeDetalhes_Example";
+			target = 04018143F4C26C071B3E1F757E75E3F1 /* Pods-TelaDeDetalhes_Example */;
+			targetProxy = 5B52ED412AB52745EB3CB37FEA5B051C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		5872729C28A93992E4BC921D653C3BDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D31C42C57C9F6ABAB4AE547943D1F005 /* Pods-TelaDeDetalhes_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TelaDeDetalhes_Tests/Pods-TelaDeDetalhes_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TelaDeDetalhes_Tests/Pods-TelaDeDetalhes_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7EEE1AED7CC28DE23B77F69CE7B863C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B5F8D533C797B2745C4DF80FA1ADD7F /* TelaDeDetalhes.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TelaDeDetalhes/TelaDeDetalhes-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TelaDeDetalhes/TelaDeDetalhes-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TelaDeDetalhes/TelaDeDetalhes.modulemap";
+				PRODUCT_MODULE_NAME = TelaDeDetalhes;
+				PRODUCT_NAME = TelaDeDetalhes;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A23D1007FE7BA87116EBBFF0702B0F94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C2568BE2C9C46E17571C69F3F0C3F7A /* Pods-TelaDeDetalhes_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TelaDeDetalhes_Example/Pods-TelaDeDetalhes_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TelaDeDetalhes_Example/Pods-TelaDeDetalhes_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A787AA2932015F839C0A95DCC0842F98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18E1CBBDCA798D1B19166341F7E44052 /* Pods-TelaDeDetalhes_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TelaDeDetalhes_Example/Pods-TelaDeDetalhes_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TelaDeDetalhes_Example/Pods-TelaDeDetalhes_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		D9B58D5AAA44BD81F81345BE31A28936 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E538A38F553907F9B6534FE068B2EAA /* TelaDeDetalhes.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TelaDeDetalhes/TelaDeDetalhes-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TelaDeDetalhes/TelaDeDetalhes-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TelaDeDetalhes/TelaDeDetalhes.modulemap";
+				PRODUCT_MODULE_NAME = TelaDeDetalhes;
+				PRODUCT_NAME = TelaDeDetalhes;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EC9E7A3CB72778A97A4DB8CB017F0E58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC5D07994B5EB28DB9EE33F08C97D9B5 /* Pods-TelaDeDetalhes_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TelaDeDetalhes_Tests/Pods-TelaDeDetalhes_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TelaDeDetalhes_Tests/Pods-TelaDeDetalhes_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E8130FDF99B358D6DDC6D44B02D7E26 /* Build configuration list for PBXNativeTarget "TelaDeDetalhes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9B58D5AAA44BD81F81345BE31A28936 /* Debug */,
+				7EEE1AED7CC28DE23B77F69CE7B863C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7FB937F9E7C456F61DD7389F87BBA884 /* Build configuration list for PBXNativeTarget "Pods-TelaDeDetalhes_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC9E7A3CB72778A97A4DB8CB017F0E58 /* Debug */,
+				5872729C28A93992E4BC921D653C3BDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5A92C057EA54AADCD992A5810840F38 /* Build configuration list for PBXNativeTarget "Pods-TelaDeDetalhes_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A23D1007FE7BA87116EBBFF0702B0F94 /* Debug */,
+				A787AA2932015F839C0A95DCC0842F98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
